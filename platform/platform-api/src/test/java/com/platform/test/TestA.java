@@ -19,5 +19,6 @@ public class TestA {
 //        OcMemberEntity ocMemberEntity=ocMemberService.loginBymsg("1234567890");
         OcMemberEntity ocMemberEntity=ocMemberService.selectByToken("ljivrzz3y7n590etcz5up2k90coxr1v5");
         System.out.println(ocMemberEntity);
+        System.out.println("test");
     }
 }
